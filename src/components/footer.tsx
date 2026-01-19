@@ -57,7 +57,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="#comandos"
+                  href="/docs"
                   className="text-sm text-emerald-700 hover:text-emerald-600 dark:text-emerald-200/70 dark:hover:text-emerald-400 transition-colors duration-300"
                 >
                   Documentação

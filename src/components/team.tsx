@@ -71,7 +71,7 @@ const teamMembers: TeamMember[] = [
   {
     id: '310255208758509570',
     role: 'Desenvolvedor',
-    description: 'Desenvolvedor',
+    description: 'Desenvolvedor FullStack',
     category: 'developers',
     link: 'https://gabriellucasafb.com.br',
   }

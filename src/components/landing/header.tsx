@@ -43,7 +43,7 @@ export default function Header() {
             <ul className="hidden lg:flex flex-row space-x-4">
               
               <li>
-                <Link href="" className="text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors duration-300 font-medium">
+                <Link href="/docs" className="text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors duration-300 font-medium">
                   Docs
                 </Link>
               </li>
