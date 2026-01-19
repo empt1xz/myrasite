@@ -34,6 +34,7 @@ export function Hero() {
                   href="LINK OAUTH"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="cursor-pointer"
                 >
                   Adicionar ao Discord
                 </a>
@@ -44,7 +45,7 @@ export function Hero() {
                 className="text-base sm:text-lg px-6 sm:px-8 w-full sm:w-auto"
                 asChild
               >
-                <a href="#comandos">Documentação</a>
+                <a href="/docs" className="cursor-pointer">Documentação</a>
               </Button>
             </div>
 
