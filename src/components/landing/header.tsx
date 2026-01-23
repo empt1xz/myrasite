@@ -60,7 +60,7 @@ export default function Header() {
                 "https://discord.com/oauth2/authorize?client_id=1455017163353096276&permissions=8&integration_type=0&scope=bot"
               )
             }
-            className="hidden md:flex font-bold hover:cursor-pointer bg-blue-600 hover:bg-blue-700 text-white text-sm md:text-base"
+            className="hidden md:flex hover:cursor-pointer bg-linear-to-r from-emerald-600 via-green-600 to-green-700 text-white text-sm md:text-base"
           >
             <FaDiscord />
             <span className="ml-2">Me adicione</span>
