@@ -9,6 +9,7 @@ import { FaDiscord } from "react-icons/fa6";
 import { useState, useEffect } from "react";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
+import Sidebar from "../sidebar";
 
 export default function Header() {
   const [menu, setMenu] = useState(false);
@@ -61,7 +62,7 @@ export default function Header() {
                 "https://discord.com/oauth2/authorize?client_id=1455017163353096276&permissions=8&integration_type=0&scope=bot"
               )
             }
-            className="hidden md:flex font-bold hover:cursor-pointer bg-blue-600 hover:bg-blue-700 text-white text-sm md:text-base"
+            className="hidden md:flex text-base px-6 sm:px-8 bg-linear-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white border-0"
           >
             <FaDiscord />
             <span className="ml-2">Me adicione</span>
@@ -78,6 +79,7 @@ export default function Header() {
           </Button>
         </div>
       </header>
+      <Sidebar open={menu} />
     </>
   );
 }
